@@ -1,0 +1,9 @@
+﻿namespace SOLID_Examples.OCP_Applied_Example;
+
+public class Invoice
+{
+    public virtual double GetInvoiceDiscount(double amount)
+    {
+        return amount - 10;
+    }
+}
