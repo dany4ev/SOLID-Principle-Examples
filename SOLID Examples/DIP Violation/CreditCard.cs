@@ -1,4 +1,4 @@
-﻿namespace SOLID_Examples.DSP_Violation;
+﻿namespace SOLID_Examples.DIP_Violation;
 
 public class CreditCard
 {

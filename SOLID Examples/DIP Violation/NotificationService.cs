@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID_Examples.DSP_Violation
+namespace SOLID_Examples.DIP_Violation
 {
     public class NotificationService
     {

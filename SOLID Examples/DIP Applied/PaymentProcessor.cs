@@ -1,4 +1,4 @@
-﻿namespace SOLID_Examples.DSP_Applied;
+﻿namespace SOLID_Examples.DIP_Applied;
 
 public class PaymentProcessor
 {

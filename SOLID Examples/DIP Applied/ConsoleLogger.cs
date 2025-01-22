@@ -1,6 +1,6 @@
-﻿namespace SOLID_Examples.DSP_Violation;
+﻿namespace SOLID_Examples.DIP_Applied;
 
-public class ConsoleLogger
+public class ConsoleLogger : ILogger
 {
     public void LogMessage(string message)
     {

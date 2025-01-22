@@ -5,7 +5,7 @@ using SOLID_Examples.SRP_Applied_Example;
 using System;
 using System.Collections.Generic;
 using SOLID_Examples.ISP_Applied;
-using SOLID_Examples.DSP_Applied;
+using SOLID_Examples.DIP_Applied;
 
 namespace SOLID_Examples
 {
@@ -128,9 +128,9 @@ namespace SOLID_Examples
 
             #endregion
 
-            #region  DSP examples
+            #region  DIP examples
 
-            // Example 1 with DSP
+            // Example 1 with DIP
             //Now, when initializing the NotificationService, 
             //we can decide which logger to use:
             var consoleLogger = new ConsoleLogger();
@@ -139,7 +139,7 @@ namespace SOLID_Examples
             var fileLogger = new FileLogger("path_to_log_file.txt");
             var notificationService2 = new NotificationService(fileLogger);
 
-            // Example 2 with DSP
+            // Example 2 with DIP
             var creditCardPayment = new CreditCard();
             var paymentProcessor1 = new PaymentProcessor(creditCardPayment);
             paymentProcessor1.ExecutePayment(100m);
